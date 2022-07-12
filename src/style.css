@@ -23,7 +23,6 @@ header{
 
 
 #Welcome{
-    display: none;
     color: #F5F5F5;
     text-align: center;
     background-size: 1370px 700px;
@@ -52,6 +51,7 @@ h1{
 }
 
 button{
+    margin: 10px;
     padding: 0px 18px 0px 18px;
     font-style: normal;
     font-weight: 700;
@@ -61,19 +61,74 @@ button{
     border: none;
     background-color: #01FE88;
     border-radius: 30px;
-    margin-bottom: 35px;
 }
 
 button:hover{
     color: #D9D9D9;
     background-color: #02351D;
+
+}
+
+#rectangle2{
+    background-image: radial-gradient(101.22% 101.22% at 50.03% 47.76%, rgba(23, 23, 23, 1) 0%, rgba(23, 23, 23, 1) 45.55%, rgba(19, 64, 43, 0.667133) 67.19%, rgba(1, 254, 136, 0.19) 100%);
+
+}
+
+main{
+    display: none;
+    color: #F5F5F5;
+    text-align: center;
+    background-size: 100%;
+    background-image: url("fondo.jpg") ;
+    border-style: none;
+}
+
+form textarea{
+    width: 60%;
+    height: 120px;
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    resize: none;
+    /*overflow: scroll;*/
+}
+
+
+form input{
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+form label{
+    font-size: 20px;
+    font-weight:500;
+    line-height: 40px;
+}
+
+#result{
+    width: 60%;
+    height: 120px;
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    color: #D9D9D9;
+    border-radius: 20px;
+    border-color: #01FE88;
+    border-width: 3px;
+    background-color: #171717;
 }
 
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    left:0px;
+    bottom:0px;
     height: 94px;
+    width: 100%;
     color: #F5F5F5;
     background-color: #171717;
 }
