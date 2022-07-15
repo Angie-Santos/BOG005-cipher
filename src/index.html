@@ -30,27 +30,29 @@
             fáciles de recordar. <b>KEEP SAFE</b> llega a solucionar este problema, Con nuestro sistema de cifrado tendrás unas 
             contraseñas únicas y muy seguras. <br>
           </p>
-          <button>
+          <button id="buttonContinue">
             CONTINUAR 
           </button>
         </div>
-      </div>
+    </div>
 
-    <main >
+    <main>
       <div id="rectangle2">
         <h1>
         INGRESA LA CONTRASEÑA QUE DESEAS CIFRAR O DESCIFRAR
         </h1>
-        <form>
-          <textarea name="" value="">Ingresa tu texto</textarea><br>
-          <label for="CLAVE CIFRADO">CLAVE CIFRADO</label>
-          <input id="CLAVE CIFRADO" type="text" value="0 a 1.000.000">
+        <form name="formulario">
+          <textarea name="textBox1" placeholder="Ingresa tu texto" required></textarea><br>
+          <label for="offset">CLAVE CIFRADO</label>
+          <input name="offset" type="number" placeholder="1 a 1.000.000" min="1" max="1000000" step="1" required><br>
+          <button type="submit" id="buttonCipher">CIFRAR</button>
+          <button type="submit">DESCIFRAR</button><br>
         </form>
-        <button>CIFRAR</button>
-        <button>DESCIFRAR</button><br>
         <textarea id="result" readonly>Resultado</textarea>
-   </main >
-      <footer>
+      </div>  
+    </main>
+    
+    <footer>
       <p>2022 - All rights reserved</p>
     </footer>
   
