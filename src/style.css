@@ -121,6 +121,14 @@ form label{
     background-color: #171717;
 }
 
+#thanks{
+    padding: 2%;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.49;
+    margin: 0%;
+}
+
 footer{
     display: flex;
     justify-content: center;

@@ -1,7 +1,5 @@
 import cipher from './cipher.js';
 
-//console.log(cipher);
-
 //Pasar de displays
 
 const buttonContinue = document.getElementById("buttonContinue");
@@ -12,17 +10,18 @@ function changeDisplay(){
     document.getElementsByTagName("main")[0].style.display="block";
 }
 
-//obtener las variables del formulario
-
+//obtener las variables del formulario y enviar nuevo resultado
 
 const form = document.formulario;
 form.onsubmit = function (event){
     event.preventDefault();
-    var offset = form.offset.value;
-    var string = form.textBox1.value;
-    cipher.decode(offset,string)
+    let offset = parseInt(form.offset.value);
+    let string = form.textBox1.value;
+    document.getElementById("result").innerHTML = cipher.encode(offset,string);
+    
 }
 
 
+//document.getElementById("result").textContent = 
 
 
