@@ -3,25 +3,30 @@ import cipher from './cipher.js';
 //Pasar de displays
 
 const buttonContinue = document.getElementById("buttonContinue");
-buttonContinue.addEventListener("click",changeDisplay);
+buttonContinue.addEventListener("click", changeDisplay);
 
-function changeDisplay(){
-    document.getElementById("Welcome").style.display="none";
-    document.getElementsByTagName("main")[0].style.display="block";
+function changeDisplay() {
+    document.getElementById("Welcome").style.display = "none";
+    document.getElementsByTagName("main")[0].style.display = "block";
 }
 
 //obtener las variables del formulario y enviar nuevo resultado
 
-const form = document.formulario;
-form.onsubmit = function (event){
-    event.preventDefault();
-    let offset = parseInt(form.offset.value);
-    let string = form.textBox1.value;
-    document.getElementById("result").innerHTML = cipher.encode(offset,string);
+const buttonEncode = document.getElementById("buttonEncode");
+    buttonEncode.addEventListener("click", encode);
     
+function encode(){
+    let offset = parseInt(document.getElementById("offset").value);
+    let string = document.getElementById("textBox1").value;
+    document.getElementById("result").textContent = cipher.encode(offset, string);
 }
 
-
-//document.getElementById("result").textContent = 
-
+const buttonDecode = document.getElementById("buttonEncode");
+    buttonDecode.addEventListener("click", decode);
+    
+function decode(){
+    let offset = parseInt(document.getElementById("offset").value);
+    let string = document.getElementById("textBox1").value;
+    document.getElementById("result").textContent = cipher.decode(offset, string);
+}
 
