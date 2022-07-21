@@ -38,7 +38,7 @@ h1 {
     font-size: 40px;
     line-height: 81px;
     margin: 0%;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 #description {
@@ -82,7 +82,7 @@ main {
     border-style: none;
 }
 
-form textarea {
+article textarea {
     width: 60%;
     height: 120px;
     margin: 10px;
@@ -90,18 +90,17 @@ form textarea {
     font-size: 20px;
     border-radius: 20px;
     resize: none;
-    /*overflow: scroll;*/
 }
 
 
-form input {
+article input {
     margin: 10px;
     padding: 10px 20px 10px 20px;
     font-size: 15px;
     border-radius: 20px;
 }
 
-form label {
+article label {
     font-size: 20px;
     font-weight: 500;
     line-height: 40px;

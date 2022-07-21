@@ -2,7 +2,7 @@
 
 KEEP SAFE es una página web con la función de cifrar contraseñas. Usa el [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar) cuya funcionaldad se basa en correr un número de posiciones (especficadas por el usuario) en el código ASCII para generar una nueva contraseña partiendo del texto ingresado. Esto garantiza que el usuario sólo deba saber el texto ingresado y la clave de posiciones Este proceso se puede revertir con la opción de descifrar.  
 
-### ¿A quién va dirigido?
+#### ¿A quién va dirigido?
 
 KEEP SAFE va dirigido a todo público que quiera cuidar de su seguridad digital. 
 
@@ -18,10 +18,10 @@ Nuestro cifrado le permite el usuario/a usar contraseñas que sean familiares pa
 
 #### Colores
 
-* '#F5F5F5'
-* '#D9D9D9'
-* '#01FE88'
-* '#171717'
+* `#F5F5F5`
+* `#D9D9D9`
+* `#01FE88`
+* `#171717`
 
 #### Fuentes 
 

@@ -21,7 +21,7 @@ function encode(){
     document.getElementById("result").textContent = cipher.encode(offset, string);
 }
 
-const buttonDecode = document.getElementById("buttonEncode");
+const buttonDecode = document.getElementById("buttonDecode");
     buttonDecode.addEventListener("click", decode);
     
 function decode(){
