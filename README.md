@@ -1,10 +1,11 @@
-# KEEP SAFE
+![Logo](/Logo.png )
+# :unlock: KEEP SAFE :lock:
 
-KEEP SAFE es una página web con la función de cifrar contraseñas. Usa el [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar) cuya funcionaldad se basa en correr un número de posiciones (especficadas por el usuario) en el código ASCII para generar una nueva contraseña partiendo del texto ingresado. Esto garantiza que el usuario sólo deba saber el texto ingresado y la clave de posiciones Este proceso se puede revertir con la opción de descifrar.  
+**KEEP SAFE** es una página web con la función de cifrar contraseñas. Usa el [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar) cuya funcionaldad se basa en correr un número de posiciones (especficadas por el usuario) en el código ASCII para generar una nueva contraseña partiendo del texto ingresado. Esto garantiza que el usuario sólo deba saber el texto ingresado y la clave de posiciones Este proceso se puede revertir con la opción de descifrar.  
 
 #### ¿A quién va dirigido?
 
-KEEP SAFE va dirigido a todo público que quiera cuidar de su seguridad digital. 
+**KEEP SAFE** va dirigido a todo público que quiera cuidar de su seguridad digital. 
 
 #### ¿Cuáles son los objetivos del usuario con relación al producto?
 
@@ -16,9 +17,9 @@ Nuestro cifrado le permite el usuario/a usar contraseñas que sean familiares pa
 
 ### Identidad de marca
 
-#### Colores
-
-* `#F5F5F5`
+#### Colores   
+              
+* `#F5F5F5`    
 * `#D9D9D9`
 * `#01FE88`
 * `#171717`
@@ -31,14 +32,8 @@ La fuente utilizada fue La familia de [Dosis](https://fonts.google.com/specimen/
 
 #### Prototipo de bajo nivel
 
-
+![PrototipoLowLevel](/Prototipo-baja-fidelidad.jpeg) 
 
 #### Prototipo de alto nivel con interacciones
 
-
-
-#### Flujo de interacciones
-
-
-
-### 
+![PrototipoHighLevel1](/Prototipo-alta-fidelidad-1.jpeg) ![PrototipoHighLevel2](/Prototipo-alta-fidelidad-2.jpeg) 
