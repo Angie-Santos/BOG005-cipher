@@ -79,7 +79,6 @@ main {
     text-align: center;
     background-size: 100%;
     background-image: url("fondo.jpg");
-    border-style: none;
 }
 
 article textarea {

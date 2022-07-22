@@ -18,7 +18,11 @@ const buttonEncode = document.getElementById("buttonEncode");
 function encode(){
     let offset = parseInt(document.getElementById("offset").value);
     let string = document.getElementById("textBox1").value;
-    document.getElementById("result").textContent = cipher.encode(offset, string);
+    if (!offset || !string) {
+        alert("Por favor complete el contenido de todos los campos");
+      }else{
+          document.getElementById("result").textContent = cipher.encode(offset, string);
+      }
 }
 
 const buttonDecode = document.getElementById("buttonDecode");
@@ -27,6 +31,10 @@ const buttonDecode = document.getElementById("buttonDecode");
 function decode(){
     let offset = parseInt(document.getElementById("offset").value);
     let string = document.getElementById("textBox1").value;
-    document.getElementById("result").textContent = cipher.decode(offset, string);
+    if (!offset || !string) {
+        alert("Por favor complete el contenido de todos los campos");
+    }else{
+        document.getElementById("result").textContent = cipher.decode(offset, string);
+      }
 }
 
