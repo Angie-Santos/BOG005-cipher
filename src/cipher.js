@@ -42,9 +42,9 @@ const cipher = {
     let newStringDecode = "";
     for (let i = 0; i < string.length; i++) {
       if (string[i].charCodeAt() >= 65 & string[i].charCodeAt() <= 90) {
-        newStringDecode += String.fromCharCode(((string[i].charCodeAt()) + 65 - offset) % 26 + 65);
+        newStringDecode += String.fromCharCode(((string[i].charCodeAt()) - 90 - offset)%26 + 90);
       } else if (string[i].charCodeAt() >= 97 & string[i].charCodeAt() <= 122) {
-        newStringDecode += String.fromCharCode(((string[i].charCodeAt()) - 116 + 97 - offset) % 26 + 97);
+        newStringDecode += String.fromCharCode(((string[i].charCodeAt())  - 122 - offset)%26 + 122);
       } else {
         newStringDecode += string[i];
       }
