@@ -11,58 +11,52 @@
 </head>
 
 <body>
-
   <header>
     <img id="Logo" src="Logo.png" alt="Logo-KEEPSAFE">
   </header>
 
 
   <div id="Welcome">
-    <div id="rectangle1">
-      <h1 class="title1">
-        TUS CONTRASEÑAS SIEMPRE SEGURAS
-      </h1>
-      <p id="description">La criptografía es la práctica de proteger la información utilizando métodos matemáticos. Es
-        la
-        principal técnica utilizada para proteger la información del acceso no autorizado.
-        La criptografía se utiliza en una variedad de aplicaciones, como la banca en línea,
-        el correo electrónico y la comunicación. <br>
-        <br>
-        Las contraseñas deben ser lo suficientemente fuertes para resistir ataques de fuerza bruta, pero también deben
-        ser
-        fáciles de recordar. <b>KEEP SAFE</b> llega a solucionar este problema, Con nuestro sistema de cifrado tendrás
-        unas
-        contraseñas únicas y muy seguras. <br>
-      </p>
-      <button id="buttonContinue">
-        CONTINUAR
-      </button>
-    </div>
+    <h1 class="title1">
+      TUS CONTRASEÑAS SIEMPRE SEGURAS
+    </h1>
+    <p id="description">La criptografía es la práctica de proteger la información utilizando métodos matemáticos. Es
+      la
+      principal técnica utilizada para proteger la información del acceso no autorizado.
+      La criptografía se utiliza en una variedad de aplicaciones, como la banca en línea,
+      el correo electrónico y la comunicación. <br>
+      <br>
+      Las contraseñas deben ser lo suficientemente fuertes para resistir ataques de fuerza bruta, pero también deben
+      ser
+      fáciles de recordar. <b>KEEP SAFE</b> llega a solucionar este problema, Con nuestro sistema de cifrado tendrás
+      unas
+      contraseñas únicas y muy seguras. <br>
+    </p>
+    <button id="buttonContinue">
+      CONTINUAR
+    </button>
   </div>
 
   <main>
-    <div id="rectangle2">
-      <h1 class="title2">
-        INGRESA LA CONTRASEÑA QUE DESEAS CIFRAR O DESCIFRAR
-      </h1>
-      <article name="formulario">
-        <textarea id="textBox1" placeholder="Ingresa tu texto"></textarea><br>
-        <label for="offset">CLAVE CIFRADO</label>
-        <input id="offset" type="number" placeholder="1 a  1.000.000" min="1" max="1000000"><br>
-        <button class="buttonCipher" type="submit" id="buttonEncode">CIFRAR</button>
-        <button class="buttonCipher" type="submit" id="buttonDecode">DESCIFRAR</button><br>
-      </article>
-      <textarea id="result" readonly>Resultado</textarea><br>
-      <p id="thanks"><b>¡Gracias por confiar en nosotros!</b></p>
-    </div>
+    <h1 class="title2">
+      INGRESA LA CONTRASEÑA QUE DESEAS CIFRAR O DESCIFRAR
+    </h1>
+    <article name="formulario">
+      <textarea id="textBox1" placeholder="Ingresa tu texto"></textarea><br>
+      <label for="offset">CLAVE CIFRADO</label>
+      <input id="offset" type="number" placeholder="1 a  1.000.000" min="1" max="1000000"><br>
+      <button class="buttonCipher" type="submit" id="buttonEncode">CIFRAR</button>
+      <button class="buttonCipher" type="submit" id="buttonDecode">DESCIFRAR</button><br>
+    </article>
+    <textarea id="result" readonly>Resultado</textarea><br>
+    <p id="thanks">¡Gracias por confiar en nosotros!</p>
   </main>
 
   <footer>
-    <p>2022 - All rights reserved</p>
+    <p class="footerText">2022 - All rights reserved</p>
   </footer>
 
   <script src="index.js" type="module"></script>
-
 </body>
 
 </html>
