@@ -4,7 +4,6 @@
 
 body {
     margin: 0%;
-    height: 100%;
     width: 100%;
     background-color: #171717;
     display: flex;
@@ -42,7 +41,6 @@ header {
     font-size: 30px;
     line-height: 81px;
     margin: 0%;
-    padding-top: 20px;
 }
 
 #description {
@@ -79,7 +77,6 @@ main {
     text-align: center;
     background-size: 100%;
     background-image: url("fondo.png");
-    
 }
 
 .title2{
