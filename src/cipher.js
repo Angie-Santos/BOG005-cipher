@@ -5,9 +5,9 @@ const cipher = {
     }
     let newString = "";
     for (let i = 0; i < string.length; i++) {
-      if (string[i].charCodeAt() >= 65 & string[i].charCodeAt() <= 90) {
+      if (string[i].charCodeAt() >= 65 && string[i].charCodeAt() <= 90) {
         newString += String.fromCharCode(((string[i].charCodeAt()) - 65 + offset) % 26 + 65);
-      } else if (string[i].charCodeAt() >= 97 & string[i].charCodeAt() <= 122) {
+      } else if (string[i].charCodeAt() >= 97 && string[i].charCodeAt() <= 122) {
         newString += String.fromCharCode(((string[i].charCodeAt()) - 97 + offset) % 26 + 97);
       } else if (string[i].charCodeAt() === 193) {
         newString += String.fromCharCode((65 - 65 + offset) % 26 + 65);
@@ -41,9 +41,9 @@ const cipher = {
     }
     let newStringDecode = "";
     for (let i = 0; i < string.length; i++) {
-      if (string[i].charCodeAt() >= 65 & string[i].charCodeAt() <= 90) {
+      if (string[i].charCodeAt() >= 65 && string[i].charCodeAt() <= 90) {
         newStringDecode += String.fromCharCode(((string[i].charCodeAt()) - 90 - offset)%26 + 90);
-      } else if (string[i].charCodeAt() >= 97 & string[i].charCodeAt() <= 122) {
+      } else if (string[i].charCodeAt() >= 97 && string[i].charCodeAt() <= 122) {
         newStringDecode += String.fromCharCode(((string[i].charCodeAt())  - 122 - offset)%26 + 122);
       } else {
         newStringDecode += string[i];
